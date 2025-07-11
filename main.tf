@@ -3,6 +3,11 @@ resource "azurerm_resource_group" "rg_block" {
   location = "West Europe"  
 }
 resource "azurerm_resource_group" "rg_block1" {
+  name="mera_teesra_rg"
+  location = "centalindia"
+  
+}
+resource "azurerm_resource_group" "rg_block2" {
   name="mera_dusra_rg"
   location = "centalus"
   
