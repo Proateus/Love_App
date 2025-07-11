@@ -12,6 +12,11 @@ resource "azurerm_resource_group" "rg_block2" {
   location = "centalus"
   
 }
+resource "azurerm_resource_group" "rg_block2" {
+  name="mera_chotha_rg"
+  location = "West US"
+  
+}
 resource "azurerm_virtual_network" "vnet_block" {
   name= "mera_vnet"
   resource_group_name = azurerm_resource_group.rg_block.name
